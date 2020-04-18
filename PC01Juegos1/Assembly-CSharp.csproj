@@ -51,14 +51,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\AllCandiesContainerControl.cs" />
-     <Compile Include="Assets\CandiesCollectorControl.cs" />
-     <Compile Include="Assets\CandyControl.cs" />
-     <Compile Include="Assets\GameOverManagerControl.cs" />
-     <Compile Include="Assets\MenuManagerControl.cs" />
-     <Compile Include="Assets\PlayerControl.cs" />
-     <Compile Include="Assets\Scripts\BGLooper.cs" />
-     <Compile Include="Assets\Scripts\BGScaler.cs" />
+     <Compile Include="Assets\Scripts\BG Scripts\BGLooper.cs" />
+     <Compile Include="Assets\Scripts\BG Scripts\BGScaler.cs" />
+     <Compile Include="Assets\Scripts\Candies Scripts\AllCandiesContainerControl.cs" />
+     <Compile Include="Assets\Scripts\Candies Scripts\CandiesCollectorControl.cs" />
+     <Compile Include="Assets\Scripts\Candies Scripts\CandyControl.cs" />
+     <Compile Include="Assets\Scripts\Managers Scripts\AboutManagerControl.cs" />
+     <Compile Include="Assets\Scripts\Managers Scripts\GameOverManagerControl.cs" />
+     <Compile Include="Assets\Scripts\Managers Scripts\MenuManagerControl.cs" />
+     <Compile Include="Assets\Scripts\PlayerControl.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Programas/Unity/Unity 2017.4.1.f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
